@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS System - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>POS System</h2>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Dashboard</h1>
+            <button id="sidebar-toggle">
+                <i class="fas fa-bars"></i> <!-- Font Awesome bars icon -->
+            </button>
+        </header>
+        <div class="info-cards">
+            <div class="card">
+                <h3>Total Sales</h3>
+                <p id="total-sales-dashboard">$0.00</p>
+            </div>
+            <div class="card">
+                <h3>Other Metric</h3>
+                <p>$0.00</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
